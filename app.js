@@ -17,5 +17,5 @@ app.use(function (err, req, res, next) {
 });
 
 app.listen(port, function () {
-  console.log('Slack bot listening on port ' + port);
+  console.log('Node app listening on port ' + port);
 });
